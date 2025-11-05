@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="mobile.css"
+    />
+    <link rel="shortcut icon" href="images/favicon1.png" type="image/x-icon" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <title>Networking Fundamentals Portfolio</title>
+  </head>
+  <body>
+    <section class="coverpage">
+      <nav>
+        <ul>
+          <li><a href="">Intro</a></li>
+          <li><a href="">Types</a></li>
+          <li><a href="">Topologies</a></li>
+          <li><a href="">Technologies</a></li>
+          <li><a href="">Tools</a></li>
+          <li><a href="">Cabling</a></li>
+          <li><a href="">Cable Testing</a></li>
+        </ul>
+      </nav>
+
+      <div class="title">
+        <h1>Networking Fundamentals</h1>
+        <h2>Portfolio</h2>
+      </div>
+    </section>
+
+    <section class="intro">
+      <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        Introduction
+      </h1>
+      <p data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        Networks are the backbone of modern communication. Whether in homes,
+        offices, or across the globe, networking enables devices to share data,
+        access the internet, and connect users efficiently. In this portfolio,
+        you’ll learn about network types, topologies, essential tools, and how
+        cabling and testing ensure proper network performance.
+      </p>
+
+      <div
+        class="line"
+        data-aos="fade-right"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+      ></div>
+    </section>
+
+    <section class="page1">
+      <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        Types and Topologies of Network
+      </h1>
+      <div class="blocks">
+        <div
+          class="block types"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
+          <h2>Types</h2>
+          <dl>
+            <dt>LAN (Local Area Network):</dt>
+            <dd>
+              A LAN connects computers and devices within a small, localized
+              area such as an office, school, or home. It typically uses
+              Ethernet or Wi-Fi for high-speed data sharing.
+            </dd>
+            <dt>WAN (Wide Area Network):</dt>
+            <dd>
+              A WAN connects multiple LANs across large geographic
+              regions—cities, countries, or even continents. The Internet is the
+              largest WAN in existence.
+            </dd>
+            <dt>MAN (Metropolitan Area Network):</dt>
+            <dd>
+              A MAN covers a larger area than a LAN but smaller than a WAN, such
+              as a city or campus. It’s often used by organizations or
+              municipalities.
+            </dd>
+            <dt>PAN (Personal Area Network):</dt>
+            <dd>
+              A PAN connects personal devices like smartphones, tablets, and
+              laptops over short distances, often using Bluetooth or USB.
+            </dd>
+          </dl>
+        </div>
+        <div
+          class="block topologies"
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+        >
+          <h2>Topologies</h2>
+          <dl>
+            <dt>Bus Topology:</dt>
+            <dd>
+              All devices share a single communication line. It’s simple but can
+              cause collisions if too many devices send data at once.
+            </dd>
+            <dt>Star Topology:</dt>
+            <dd>
+              Each device connects to a central hub or switch. This design is
+              common in LANs and allows easy troubleshooting if one device
+              fails.
+            </dd>
+            <dt>Ring Topology:</dt>
+            <dd>
+              Devices are connected in a circular path. Data travels in one
+              direction around the ring until it reaches its destination.
+            </dd>
+            <dt>Mesh Topology:</dt>
+            <dd>
+              Each device connects directly to others, creating multiple
+              pathways for data. This provides high redundancy and reliability.
+            </dd>
+            <dt>Hybrid Topology:</dt>
+            <dd>
+              A combination of two or more topologies, often used in large,
+              complex networks to increase efficiency and fault tolerance.
+            </dd>
+          </dl>
+        </div>
+      </div>
+
+      <div
+        class="line"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+      ></div>
+    </section>
+
+    <section class="page2">
+      <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        Networking Technologies
+      </h1>
+      <div class="row1">
+        <div
+          class="block"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
+          <h2>Ethernet</h2>
+          <div class="vert"></div>
+          <p>
+            The most widely used wired LAN technology that supports speeds from
+            10 Mbps to 100 Gbps.
+          </p>
+        </div>
+        <div
+          class="block"
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+        >
+          <h2>Wi-Fi (Wireless Fidelity)</h2>
+          <div class="vert"></div>
+          <p>
+            Enables devices to connect without cables using radio signals, ideal
+            for mobility and convenience.
+          </p>
+        </div>
+      </div>
+
+      <div class="row2">
+        <div
+          class="block"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
+          <h2>Bluetooth</h2>
+          <p>
+            Short-range wireless technology for connecting personal devices like
+            headsets, keyboards, and phones.
+          </p>
+        </div>
+        <div
+          class="block"
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+        >
+          <h2>VPN (Virtual Private Network)</h2>
+          <p>
+            Creates a secure, encrypted tunnel between a user and a remote
+            network, ensuring privacy and data protection.
+          </p>
+        </div>
+        <div
+          class="block"
+          data-aos="fade-up"
+          data-aos-delay="400"
+          data-aos-duration="1000"
+        >
+          <h2>5G / Cellular Networks</h2>
+          <p>
+            High-speed mobile technology enabling fast data transfer for mobile
+            devices and IoT systems.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="line"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+      ></div>
+    </section>
+
+    <section class="page3">
+      <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        Networking Tools
+      </h1>
+      <div class="contents">
+        <div class="left">
+          <div
+            class="block"
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            <h2>Crimping Tool</h2>
+            <div class="vertl"></div>
+            <p>Used to attach RJ45 connectors to Ethernet cables.</p>
+          </div>
+          <div
+            class="block"
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            <h2>Multimeter</h2>
+            <div class="vertl"></div>
+            <p>
+              Measures voltage, resistance, and current in electrical circuits,
+              useful for diagnosing power issues.
+            </p>
+          </div>
+          <div
+            class="block"
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            <h2>Network Analyzer Software</h2>
+            <div class="vertl"></div>
+            <p>
+              Monitors, captures, and analyzes data packets to identify network
+              issues or optimize performance.
+            </p>
+          </div>
+        </div>
+        <div
+          class="vert"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        ></div>
+        <div class="right">
+          <div
+            class="block"
+            data-aos="fade-left"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            <h2>Cable Tester</h2>
+            <div class="vertl"></div>
+            Verifies the connectivity and signal integrity of cables to detect
+            faults or miswiring.
+          </div>
+          <div
+            class="block"
+            data-aos="fade-left"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            <h2>Punch-Down Tool</h2>
+            <div class="vertl"></div>
+            <p>
+              Used to connect wires into patch panels or network jacks securely.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page4">
+      <h1 data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
+        Cabling
+      </h1>
+      <div class="contents">
+        <div
+          class="table"
+          data-aos="fade-right"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
+          <table>
+            <thead>
+              <th>Cable Type</th>
+              <th>Maximum Distance</th>
+              <th>Typical Use</th>
+            </thead>
+            <tr>
+              <td>Twisted Pair (Cat5e, Cat6)</td>
+              <td>Up to 100 meters</td>
+              <td>Common Ethernet LAN connections</td>
+            </tr>
+            <tr>
+              <td>Coaxial Cable</td>
+              <td>Up to 500 meters</td>
+              <td>Cable Internet, CCTV, and legacy networks</td>
+            </tr>
+            <tr>
+              <td>Fiber Optic Cable</td>
+              <td>Several kilometers</td>
+              <td>High-speed data backbones and long-distance connections</td>
+            </tr>
+          </table>
+        </div>
+        <div class="testing">
+          <div
+            class="block"
+            data-aos="fade-left"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+          >
+            <h2>Cable Testing</h2>
+            <p>
+              Before deploying any network cable, technicians must perform
+              proper testing to ensure signal quality and connectivity.
+              <br />Cable testing checks for:
+            </p>
+            <ul>
+              <li>Wire continuity</li>
+              <li>Correct pin configuration</li>
+              <li>Signal strength and interference</li>
+              <li>Proper termination</li>
+            </ul>
+
+            <div class="line"></div>
+            <h2>Pre-Test Checklist Form</h2>
+            <form>
+              <div>
+                <input type="checkbox" name="one" id="" />
+                <label for="one">Power on all required devices</label>
+              </div>
+              <div>
+                <input type="checkbox" name="two" id="" />
+                <label for="two">Connect the cable properly</label>
+              </div>
+              <div>
+                <input type="checkbox" name="three" id="" />
+                <label for="three"
+                  >Run the cable tester to verify connections</label
+                >
+              </div>
+
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <img src="images/favicon1.png" alt="" />
+      <p><a href="mailto:25103993@usc.edu.ph">Contact Me</a></p>
+      <time>11/05/25</time>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>
