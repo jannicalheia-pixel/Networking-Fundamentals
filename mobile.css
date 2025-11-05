@@ -3,7 +3,11 @@
     gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 15px;
+    margin: 0 10px;
+  }
+
+  nav ul li a:hover {
+    color: white;
   }
 
   .title {
@@ -11,6 +15,11 @@
     h1 {
       font-size: 50px;
       text-align: center;
+      letter-spacing: 4px;
+    }
+
+    h1:hover {
+      letter-spacing: 4px;
     }
 
     h2 {
