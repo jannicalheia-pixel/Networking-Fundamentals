@@ -105,7 +105,7 @@
 
 .page4 {
   h1 {
-    padding: 30px 0;
+    padding-top: 30px;
   }
 
   .contents {
@@ -114,6 +114,18 @@
     .table {
       justify-content: baseline;
       width: 90%;
+    }
+    .table table {
+      font-size: 0.85rem;
+    }
+
+    .table th,
+    .table td {
+      padding: 10px 12px;
+    }
+
+    .table thead {
+      letter-spacing: 0.5px;
     }
 
     .testing {
