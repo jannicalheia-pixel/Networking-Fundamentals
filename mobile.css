@@ -3,6 +3,7 @@
     gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 auto;
   }
 
   .title {
@@ -105,7 +106,7 @@
 
 .page4 {
   h1 {
-    padding-top: 30px;
+    padding-top: 50px;
   }
 
   .contents {
